@@ -33,3 +33,6 @@ models:
     stg:
       +materialized: view
       +tags: stg
+    dm:
+      +materialized: view
+      +tags: dm

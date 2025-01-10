@@ -9,11 +9,11 @@ create table jaffle_shop.customers(
 );
 
 create table jaffle_shop.payments(
-    id integer, 
-    order_id integer, 
-    payment_method text, 
-    status text, 
-    amount integer, 
+    id integer,
+    order_id integer,
+    payment_method text,
+    status text,
+    amount integer,
     created date
 );
 
@@ -25,7 +25,7 @@ create table jaffle_shop.orders(
     status varchar(50)
 );
 
-create table stripe.payment(
+create table stripe.payments(
     id integer,
     orderid integer,
     paymentmethod varchar(50),
